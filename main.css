@@ -1,8 +1,9 @@
 .box{
   width: 20%;
-  height: 300px;
+  height: 250px;
   display: inline-block;
   margin-left: 4%;
+  border-radius: 50%;
 }
 .colorContainer{
   height: 30%;
