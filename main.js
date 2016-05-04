@@ -1,6 +1,6 @@
 $(document).on('ready', function() {
   var colorArray = ['red', 'peach', 'pink', 'gold'];
-
+  var score = 0;
 
   $('.colorContainer').append('<div class="red box"></div>');
   $('.colorContainer').append('<div class="peach box"></div>');
@@ -16,9 +16,13 @@ $(document).on('ready', function() {
   $('.colorContainer').on('click', '.box', function(){
     if($(this).hasClass('correct')){
       alert('You got it Right!!!!!!!!!!!!!!!!!!!!');
+      score += 5;
+      $('.score').text(score);
       removeWinner();
       assignWinner();
     }else {
+      score -= 1;
+      $('.score').text(score);
       alert('nope');
     }
 
