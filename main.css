@@ -1,0 +1,21 @@
+.box{
+  width: 20%;
+  height: 300px;
+  display: inline-block;
+  margin-left: 4%;
+}
+.colorContainer{
+  height: 30%;
+}
+.red{
+  background-color: firebrick;
+}
+.peach{
+  background-color: peachpuff;
+}
+.pink{
+  background-color: deeppink;
+}
+.gold{
+    background-color: darkgoldenrod;
+}
