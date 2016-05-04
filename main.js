@@ -16,7 +16,7 @@ $(document).on('ready', function() {
   $('.colorContainer').on('click', '.box', function(){
     if($(this).hasClass('correct')){
       alert('You got it Right!!!!!!!!!!!!!!!!!!!!');
-      score += 5;
+      score += 3;
       $('.score').text(score);
       removeWinner();
       assignWinner();
